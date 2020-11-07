@@ -94,9 +94,18 @@
 
       if(password != confirmpassword){
         alert("Both the passwords should match");
-        return false;
+        // return false;
       }
-      else return true;
+      else {
+        $.ajax({
+          url:'database.php',
+          type:'post',
+          data:$('#signup').serialize(),
+          success:function(){
+              console.log("worked");
+          }
+        });
+      }
     }
   </script>
 
@@ -292,14 +301,14 @@
                 <input class="form-styling" type="password" name="pass" required>
                 <input type="submit" class="btn-animate btn-signin" value="Sign in">
               </form>
-                
-              <form class="form-signup" action="database.php" onsubmit="return validateForm()" method="post" name="signup" enctype="multipart/form-data" target=none>
+              
+              <form class="form-signup" onsubmit="validateForm()" name="signup" id="signup">  
                 <label for="fullname">Full name</label>
                 <input class="form-styling" type="text" name="fullname" id="fullname" required>
                 <label for="email">Email</label>
                 <input class="form-styling" type="email" name="email" id="email" required>
                 <label for="pass">Password</label>
-                <input class="form-styling" type="password" name="pass" id="pass" required>
+                <input class="form-styling" type="password" name="pass" id="pass" required minLength=8>
                 <label for="confirmpassword">Confirm password</label>
                 <input class="form-styling" type="password" name="confirmpassword" required>
                 <input ng-click="checked = !checked" type="submit" class="btn-signup" value="SIGN UP">
