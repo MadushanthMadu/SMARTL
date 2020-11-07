@@ -14,11 +14,11 @@
 
   <table width="100%" class="header" id="myHeader">
     <tr>
-      <td align="center" width="25%" style="padding: 10px;">
+      <td align="center" width="15%" style="padding: 10px;">
         <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/Imgs/SMARTL.png" width="75px">
       </td>
 
-      <td align="left" width="75%">
+      <td align="left" width="85%">
         <font color="#000000" size="+2">
           <button>
             <a href="index.php" style="text-decoration:none ; font-size:20px">
@@ -26,11 +26,11 @@
             </a>
           </button>&emsp;|&emsp;
 
-          <!-- <button>
+          <button>
             <a href="" style="text-decoration:none ; font-size:20px">
               <b>CONFERENCE</b>
             </a>
-          </button>&emsp;|&emsp; -->
+          </button>&emsp;|&emsp;
 
           <button>
             <a href="Papers.php" style="text-decoration:none ; font-size:20px">
@@ -48,7 +48,13 @@
             <a href="About.php" style="text-decoration:none ; font-size:20px">
               <b>ABOUT US</b>
             </a>
-          </button>&emsp;&emsp;&emsp;&emsp;&emsp;
+          </button>&emsp;|&emsp;
+
+          <button>
+            <a style="text-decoration:none ; font-size:20px" data-toggle="modal" data-target="#Login" >
+              <b>LOGIN</b>
+            </a>
+          </button>
         </font>
       </td>
     </tr>
@@ -68,6 +74,29 @@
       else {
         header.classList.remove("sticky");
       }
+    }
+
+    $(function() {
+	    $(".btn").click(function() {
+		    $(".form-signin").toggleClass("form-signin-left");
+        $(".form-signup").toggleClass("form-signup-left");
+        $(".frame").toggleClass("frame-long");
+        $(".signup-inactive").toggleClass("signup-active");
+        $(".signin-active").toggleClass("signin-inactive");
+        $(".forgot").toggleClass("forgot-left");   
+        $(this).removeClass("idle").addClass("active");
+	    });
+    });
+
+    function validateForm() {
+      var password = document.forms["signup"]["pass"].value;
+      var confirmpassword = document.forms["signup"]["confirmpassword"].value;
+
+      if(password != confirmpassword){
+        alert("Both the passwords should match");
+        return false;
+      }
+      else return true;
     }
   </script>
 
@@ -162,7 +191,6 @@
   <br>
   <div class="container">
     <div class="row">
-      
       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
         <div class="card">
           <img class="card-img-top center-block" src="Imgs/pic2.png" alt="Card image">
@@ -245,6 +273,44 @@
     </div>
   </div>
 
+  <div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" id="m_content">
+        <div class="modal-body" id="m_body">
+          <div class="frame" id="m_frame">
+            <div class="nav">
+              <ul class="links">
+                <li class="signin-active"><a class="btn">Sign in</a></li>
+                <li class="signup-inactive"><a class="btn">Sign up </a></li>
+              </ul>
+            </div>
+            <div ng-app ng-init="checked = false">
+              <form class="form-signin" action="" method="post" name="signin" enctype="multipart/form-data">
+                <label for="username">Username</label>
+                <input class="form-styling" type="text" name="username" required>
+                <label for="password">Password</label>
+                <input class="form-styling" type="password" name="pass" required>
+                <input type="submit" class="btn-animate btn-signin" value="Sign in">
+              </form>
+                
+              <form class="form-signup" action="database.php" onsubmit="return validateForm()" method="post" name="signup" enctype="multipart/form-data" target=none>
+                <label for="fullname">Full name</label>
+                <input class="form-styling" type="text" name="fullname" id="fullname" required>
+                <label for="email">Email</label>
+                <input class="form-styling" type="email" name="email" id="email" required>
+                <label for="pass">Password</label>
+                <input class="form-styling" type="password" name="pass" id="pass" required>
+                <label for="confirmpassword">Confirm password</label>
+                <input class="form-styling" type="password" name="confirmpassword" required>
+                <input ng-click="checked = !checked" type="submit" class="btn-signup" value="SIGN UP">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <table width="100%">
     <tr style="background-color:rgb(0, 115, 255)">
       <td colspan="6">
@@ -273,12 +339,12 @@
                 </a>
             </button>
 
-            <!-- <br>
+            <br>
             <button>
                 <a href="" style="text-decoration:none">
                     <font color="#ffffff" size="-2">CONFERENCE</font>
                 </a>
-            </button> -->
+            </button>
             
             <br>
             <button>
