@@ -27,7 +27,7 @@
           </button>&emsp;|&emsp;
 
           <button>
-            <a href="views/index.ejs" style="text-decoration:none ; font-size:20px">
+            <a href="public/index.ejs" style="text-decoration:none ; font-size:20px">
               <b>CONFERENCE</b>
             </a>
           </button>&emsp;|&emsp;
