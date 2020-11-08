@@ -33,7 +33,6 @@ $sql = "CREATE TABLE register (
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   fullname VARCHAR(30) NOT NULL,
   pass VARCHAR(30) NOT NULL,
-  usertype VARCHAR(50) NOT NULL,
   email VARCHAR(50) NOT NULL
   )";
   
@@ -43,8 +42,8 @@ if ($conn->query($sql) === TRUE) {
   // echo "Error creating table users: " . $conn->error;
 }
 
-$sql = "INSERT INTO register (fullname, pass, usertype, email)
-VALUES ('$fullname', '$pass', 'student', '$email')";
+$sql = "INSERT INTO register (fullname, pass, email)
+VALUES ('$fullname', '$pass', '$email')";
 
 if ($conn->query($sql) === TRUE) {
   // echo "New record created successfully";
