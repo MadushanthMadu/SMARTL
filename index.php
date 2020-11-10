@@ -27,7 +27,7 @@
           </button>&emsp;|&emsp;
 
           <button>
-            <a href="public/index.ejs" style="text-decoration:none ; font-size:20px">
+            <a href="Conference.php" style="text-decoration:none ; font-size:20px">
               <b>CONFERENCE</b>
             </a>
           </button>&emsp;|&emsp;
@@ -94,7 +94,6 @@
 
       if(password != confirmpassword){
         alert("Both the passwords should match");
-        // return false;
       }
       else {
         $.ajax({
@@ -105,6 +104,32 @@
               console.log("worked");
           }
         });
+
+        document.getElementById("fullname").value='';
+        document.getElementById("email").value='';
+        document.getElementById("pass").value='';
+        document.getElementById("confirmpassword").value='';
+
+        $('#Login').modal('hide');
+        $('.modal-backdrop').remove();
+      }
+    }
+
+    function LoginForm() {
+      var userName = document.forms["signin"]["username"].value;
+      var password = document.forms["signin"]["password"].value;
+
+      if(false){
+        alert("Incorrect Username or Password");
+      }
+      else {
+        document.getElementById("loginusername").value='';
+        document.getElementById("loginpassword").value='';
+
+        $('#Login').modal('hide');
+        $('.modal-backdrop').remove();
+
+        return true;
       }
     }
   </script>
@@ -290,19 +315,19 @@
             <div class="nav">
               <ul class="links">
                 <li class="signin-active"><a class="btn">Sign in</a></li>
-                <li class="signup-inactive"><a class="btn">Sign up </a></li>
+                <li class="signup-inactive"><a class="btn">Sign up</a></li>
               </ul>
             </div>
             <div ng-app ng-init="checked = false">
-              <form class="form-signin" action="" method="post" name="signin" enctype="multipart/form-data">
+              <form class="form-signin" onsubmit="return LoginForm()" action="database.php" name="signin" id="signin" enctype="multipart/form-data" target="_blank">
                 <label for="username">Username</label>
-                <input class="form-styling" type="text" name="username" required>
+                <input class="form-styling" type="text" name="username" id="loginusername" required>
                 <label for="password">Password</label>
-                <input class="form-styling" type="password" name="pass" required>
+                <input class="form-styling" type="password" name="password" id="loginpassword" required>
                 <input type="submit" class="btn-animate btn-signin" value="Sign in">
               </form>
               
-              <form class="form-signup" onsubmit="validateForm()" name="signup" id="signup">  
+              <form class="form-signup" onsubmit="validateForm()" name="signup" id="signup" enctype="multipart/form-data">  
                 <label for="fullname">Full name</label>
                 <input class="form-styling" type="text" name="fullname" id="fullname" required>
                 <label for="email">Email</label>
@@ -310,7 +335,7 @@
                 <label for="pass">Password</label>
                 <input class="form-styling" type="password" name="pass" id="pass" required minLength=8>
                 <label for="confirmpassword">Confirm password</label>
-                <input class="form-styling" type="password" name="confirmpassword" required>
+                <input class="form-styling" type="password" name="confirmpassword" id="confirmpassword" required>
                 <input ng-click="checked = !checked" type="submit" class="btn-signup" value="SIGN UP">
               </form>
             </div>

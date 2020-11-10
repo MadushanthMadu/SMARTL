@@ -585,3 +585,24 @@ label {
     background-color: #0F4FE6;
     transition: background-color .5s; 
 }
+
+.host {
+    background-color: #d7e6f9;
+    width: 700px;
+    padding: 50px;
+    border-radius: 100px;
+    box-shadow: rgb(0, 35, 78) 3px 3px 5px;
+}
+
+.hostbtn {
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    transform: scale(1.2);
+    color: rgb(0, 35, 78);
+}
+
+.hostbtn:hover {
+    background-color: rgb(0, 35, 78);
+    color: white;
+}
