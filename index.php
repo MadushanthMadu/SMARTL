@@ -116,21 +116,11 @@
     }
 
     function LoginForm() {
-      var userName = document.forms["signin"]["username"].value;
-      var password = document.forms["signin"]["password"].value;
+      // document.getElementById("username").value='';
+      // document.getElementById("password").value='';
 
-      if(false){
-        alert("Incorrect Username or Password");
-      }
-      else {
-        document.getElementById("loginusername").value='';
-        document.getElementById("loginpassword").value='';
-
-        $('#Login').modal('hide');
-        $('.modal-backdrop').remove();
-
-        return true;
-      }
+      $('#Login').modal('hide');
+      $('.modal-backdrop').remove();
     }
   </script>
 
@@ -319,11 +309,11 @@
               </ul>
             </div>
             <div ng-app ng-init="checked = false">
-              <form class="form-signin" onsubmit="return LoginForm()" action="database.php" name="signin" id="signin" enctype="multipart/form-data" target="_blank">
+              <form class="form-signin" action="login.php" onsubmit="LoginForm()" name="signin" id="signin" enctype="multipart/form-data" target="_blank">
                 <label for="username">Username</label>
-                <input class="form-styling" type="text" name="username" id="loginusername" required>
+                <input class="form-styling" type="text" name="username" id="username" required>
                 <label for="password">Password</label>
-                <input class="form-styling" type="password" name="password" id="loginpassword" required>
+                <input class="form-styling" type="password" name="password" id="password" required>
                 <input type="submit" class="btn-animate btn-signin" value="Sign in">
               </form>
               
