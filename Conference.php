@@ -132,9 +132,9 @@
             <h3 style="color:#2681f2;" align="center">Create A Class</h3>
             <br>
             <form action="login.php" onsubmit="LoginForm()" name="signin" id="signin" method="post" enctype="multipart/form-data" align="center">
-                <label for="username" style="color:white;"><b>Username</b></label>&emsp;
+                <label for="username" style="color: rgb(0, 35, 78);"><b>Username</b></label>&emsp;
                 <input type="text" name="username" id="username" style="width:300px; background-color:#e7f1fd; border:0; box-shadow:#2681f2 2px 2px 2px; border-radius:5px" required><br>
-                <label for="password" style="color:white"><b>Password</b></label>&emsp;
+                <label for="password" style="color: rgb(0, 35, 78)"><b>Password</b></label>&emsp;
                 <input type="password" name="password" id="password" style="width:300px; background-color:#e7f1fd; border:0; box-shadow:#2681f2 2px 2px 2px; border-radius:5px" required><br><br>
                 <input type="submit" class="hostbtn" value="Create">
             </form>
@@ -147,7 +147,7 @@
             <h3 style="color:#2681f2;" align="center">Join A Class</h3>
             <br>
             <form id="join" name="join" align="center">
-                <label for="id" style="color:white"><b>Room URL</b></label>&emsp;
+                <label for="id" style="color: rgb(0, 35, 78)"><b>Room URL</b></label>&emsp;
                 <input type="text" name="pass" id="pass" style="width:330px; background-color:#e7f1fd; border:0; box-shadow:#2681f2 2px 2px 2px; border-radius:5px" value="" required><br><br>
                 <input type="button" onclick="joinmeet()" class="hostbtn" value="Join">
             </form>
