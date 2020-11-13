@@ -27,6 +27,7 @@ if (!mysqli_select_db($conn,$dbname)){
 $sql = "CREATE TABLE register (
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   fullname VARCHAR(30) NOT NULL,
+  role VARCHAR(30) NOT NULL,
   pass VARCHAR(30) NOT NULL,
   email VARCHAR(50) NOT NULL
   )";
@@ -39,11 +40,12 @@ if ($conn->query($sql) === TRUE) {
 
 // Escape user inputs for security
 $fullname = mysqli_real_escape_string($conn, $_REQUEST['fullname']);
+$role = mysqli_real_escape_string($conn, $_REQUEST['role']);
 $pass = mysqli_real_escape_string($conn, $_REQUEST['pass']);
 $email = mysqli_real_escape_string($conn, $_REQUEST['email']);
 
-$sql = "INSERT INTO register (fullname, pass, email)
-VALUES ('$fullname', '$pass', '$email')";
+$sql = "INSERT INTO register (fullname, role, pass, email)
+VALUES ('$fullname', '$role', '$pass', '$email')";
 
 if ($conn->query($sql) === TRUE) {
   // echo "New record created successfully";

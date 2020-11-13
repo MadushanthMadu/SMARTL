@@ -296,7 +296,7 @@ body, html {
 }
   
 .frame-long {
-    height: 655px;
+    height: 700px;
 }
   
 .frame-short {
@@ -587,10 +587,17 @@ label {
 }
 
 .host {
-    background-color: #d7e6f9;
+    background-image: url("https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/Imgs/hands-working-with-laptop-title-online-study-screen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 700px;
     padding: 50px;
     border-radius: 100px;
+}
+
+.host:hover {
+    transform: scale(1.05);
     box-shadow: rgb(0, 35, 78) 3px 3px 5px;
 }
 
@@ -605,4 +612,16 @@ label {
 .hostbtn:hover {
     background-color: rgb(0, 35, 78);
     color: white;
+}
+
+.form-styling2 {
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,.2);
 }

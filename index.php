@@ -217,7 +217,7 @@
     <div class="row">
       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
         <div class="card">
-          <img class="card-img-top center-block" src="Imgs/pic2.png" alt="Card image">
+          <img class="card-img-top center-block" src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/Imgs/Untitled-4.png" alt="Card image">
           <div class="card-body text-center">
             <h5 class="card-title">FREE MEETINGS</h5>
             <p class="card-text text-primary"><font size="-1">Free and Unlimited Live Stream High Quality Video Conferences & Sound Systems With Less Data Usages. Powerful Meeting Security. Join Anywhere From Any Devices.</font></p>
@@ -227,7 +227,7 @@
 
       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
         <div class="card">
-          <img class="card-img-top center-block" src="Imgs/pic2.png" alt="Card image">
+          <img class="card-img-top center-block" src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/Imgs/Untitled-3.png" alt="Card image">
           <div class="card-body text-center">
             <h5 class="card-title">UNLIMITED CHATS</h5>
             <p class="card-text text-primary"><font size="-1">Free and Unlimited Chats While Video Conference With Group And Private Also. Fast Forward Messages At Any Moment. Easy And Fun Chats With Friends And Teachers.</font></p>
@@ -237,17 +237,17 @@
 
       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
         <div class="card">
-          <img class="card-img-top center-block" src="Imgs/pic2.png" alt="Card image">
+          <img class="card-img-top center-block" src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/Imgs/Untitled-2_2.png" alt="Card image">
           <div class="card-body text-center">
-            <h5 class="card-title">SCREEN SHARING</h5>
-            <p class="card-text text-primary"><font size="-1">Easy And Responsible Presentations And Screen Sharing On Your Screen During A Video Conference.</font></p>
+            <h5 class="card-title">FREE ACCOUNTS</h5>
+            <p class="card-text text-primary"><font size="-1">Register Your Accounts In Our SMARTL For Non Paid. Totally Free Accounts Are Available For All Our Students And Teachers.</font></p>
           </div>
         </div>
       </div>
 
       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
         <div class="card">
-          <img class="card-img-top center-block" src="Imgs/pic2.png" alt="Card image">
+          <img class="card-img-top center-block" src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/Imgs/Untitled-1.png" alt="Card image">
           <div class="card-body text-center">
             <h5 class="card-title">RECORDING</h5>
             <p class="card-text text-primary"><font size="-1">Capture High Quality Video And Voices In Any Moment In Any Conferences Freely And Easy.</font></p>
@@ -304,17 +304,17 @@
           <div class="frame" id="m_frame">
             <div class="nav">
               <ul class="links">
-                <li class="signin-active"><a class="btn">Sign in</a></li>
+                <li class="signin-active"><a class="btn">Login</a></li>
                 <li class="signup-inactive"><a class="btn">Sign up</a></li>
               </ul>
             </div>
             <div ng-app ng-init="checked = false">
-              <form class="form-signin" action="login.php" onsubmit="LoginForm()" name="signin" id="signin" enctype="multipart/form-data" target="_blank">
+              <form class="form-signin" action="login.php" target="_blank" onsubmit="LoginForm()" name="signin" id="signin" enctype="multipart/form-data">
                 <label for="username">Username</label>
                 <input class="form-styling" type="text" name="username" id="username" required>
                 <label for="password">Password</label>
                 <input class="form-styling" type="password" name="password" id="password" required>
-                <input type="submit" class="btn-animate btn-signin" value="Sign in">
+                <input type="submit" class="btn-animate btn-signin" value="Login">
               </form>
               
               <form class="form-signup" onsubmit="validateForm()" name="signup" id="signup" enctype="multipart/form-data">  
@@ -322,7 +322,14 @@
                 <input class="form-styling" type="text" name="fullname" id="fullname" required>
                 <label for="email">Email</label>
                 <input class="form-styling" type="email" name="email" id="email" required>
-                <label for="pass">Password</label>
+                <label for="role">Role</label><br>
+                &emsp;<span class="form-styling2" name="role">
+                  <input type="radio" name="role" id="role" value="Teacher"><label>Teacher</label>
+                </span>&emsp;
+                <span class="form-styling2" name="role">
+                  <input type="radio" name="role" id="role" value="Student"><label>Student</label>
+                </span>
+                <br><label for="pass">Password</label>
                 <input class="form-styling" type="password" name="pass" id="pass" required minLength=8>
                 <label for="confirmpassword">Confirm password</label>
                 <input class="form-styling" type="password" name="confirmpassword" id="confirmpassword" required>
@@ -337,8 +344,8 @@
 
   <table width="100%">
     <tr style="background-color:rgb(0, 115, 255)">
-      <td colspan="6">
-        <p style="text-align: center;"><font color="#ffffff">
+      <td colspan="6" style="padding-left:15px; padding-right:15px">
+        <p style="text-align: center;"><font color="#ffffff" size="-1">
           We expecting to improve the Knowledge of students how far we can. We are trying to improve educational knowledge & IQ also.
           Thats why SMARTL offering <b> Online Classes, Online Exams, Exam Papers, Novels, story books, DIY ideas & etc.</b>     
           Enjoy the learning and make step for better future.
@@ -365,7 +372,7 @@
 
             <br>
             <button>
-                <a href="" style="text-decoration:none">
+                <a href="Conference.php" style="text-decoration:none">
                     <font color="#ffffff" size="-2">CONFERENCE</font>
                 </a>
             </button>
@@ -493,6 +500,13 @@
             <button>
                 <a href="About.php#Why" style="text-decoration:none">
                     <font color="#ffffff" size="-2">WHY SMARTL</font>
+                </a>
+            </button>
+
+            <br>
+            <button>
+                <a href="About.php#How" style="text-decoration:none">
+                    <font color="#ffffff" size="-2">HOW SMARTL WAS BUILD</font>
                 </a>
             </button>
         </p>
