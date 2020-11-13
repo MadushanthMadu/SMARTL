@@ -594,6 +594,7 @@ label {
     width: 700px;
     padding: 50px;
     border-radius: 100px;
+    text-shadow: white 1px 1px 0px;
 }
 
 .host:hover {
