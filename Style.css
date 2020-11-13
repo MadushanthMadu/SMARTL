@@ -594,7 +594,7 @@ label {
     width: 700px;
     padding: 50px;
     border-radius: 100px;
-    text-shadow: black 1px 1px 0px;
+    text-shadow:  rgb(0, 35, 78) -2px 1px 1px;
 }
 
 .host:hover {
