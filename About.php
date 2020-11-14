@@ -129,16 +129,16 @@
             <td width="40%" class="bg"></td>
             <td  align="center" style="background-color:#ffffff; padding:20px;">
                 <h2>ABOUT SMARTL</h2>
-                <p id="Why">SMARTL helps students to improve their knowledges. Our easy, E-Learning platform for online examination, papers, text books, novels, story books, DIY ideas, puzzles, codings runs on desktop only now. But soon it will be responsive to mobile devices. SMARTL will be get some more features like video conferences, chats, screen sharing, call recording too.</p>
+                <p id="Why">SMARTL helps students to improve their knowledge. Our easy, E-Learning platform for online classes, online examination, papers, textbooks, novels, story books, DIY ideas, puzzles, codings runs on desktop only now. But soon it will be responsive to mobile devices.</p>
                     
                 <br>
                 <h2>WHY SMARTL</h2>
-                <p id="How">There are somany websites are working for educational responsibility. They were publishing past papers, model paper, term paper and text books also. But our SMARTL have online papers, past papers, model papers, term papers, text books and also have some general knowledge things. Such as novels, story books, DIY ideas, puzzles and coding tutorials. we have gathered these things from many other creaters also. Our SMARTL trying to make a fun and better learning to improve all our students.</p>
+                <p id="How">There are so many websites are working for educational responsibility. They were publishing past papers, model paper, term paper and text books also. But our SMARTL have online classes, online papers, past papers, model papers, term papers, textbooks and also have some general knowledge things. Such as novels, story books, DIY ideas, puzzles and coding tutorials. We have gathered these things from many other creatures also. Our SMARTL trying to make a fun and better learning to improve all our students.</p>
 
                 <br>
                 <h2>HOW SMARTL WAS BUILD</h2><br>
                 <video width="480" height="270" controls>
-  			        <source src="MCreations.mkv">
+  			        <source src="Video/SMARTL.mp4">
 		        </video>
             </td>
         </tr>

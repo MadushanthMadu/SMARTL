@@ -124,90 +124,90 @@
     }
   </script>
 
-<div id="carouselExampleCaptions" class="carousel slide slidshow" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/OnlineExamination.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Online Examinations</font></h5>
+  <div id="carouselExampleCaptions" class="carousel slide slidshow" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/OnlineExamination.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Online Examinations</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/PastPaper.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Past Papers</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/ModelPapers.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Model Papers</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/TermPaper.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Term Papers</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Books.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Books</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Novels.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Novels</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/StoryBooks.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Story Books</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/DIY_Ideas.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">DIY Ideas</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Puzzles</font></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Codings.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Codings</font></h5>
+        </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/PastPaper.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Past Papers</font></h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/ModelPapers.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Model Papers</font></h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/TermPaper.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Term Papers</font></h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Books.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Books</font></h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Novels.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Novels</font></h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/StoryBooks.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Story Books</font></h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/DIY_Ideas.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">DIY Ideas</font></h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Puzzles</font></h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Codings.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5><font color="#2681f2" style="text-shadow: black 1px 1px 2px;">Codings</font></h5>
-      </div>
-    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
   <br><br>
   <center><h1><font color="#0C63CE">FEATURES</font></h1></center>
