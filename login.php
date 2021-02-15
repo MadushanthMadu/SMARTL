@@ -37,7 +37,7 @@ if ($result->num_rows > 0) {
     if($row["pass"] == $pass){
         // echo "Login Successfully !";
         echo '<script type="text/JavaScript">  
-        window.open("https://smart-learn-classroom.herokuapp.com/", "_top", "directories=yes,titlebar=yes,toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes");
+        window.open("https://classroom-smartlearn.herokuapp.com/", "_top", "directories=yes,titlebar=yes,toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes");
         </script>' ;
     }
     else{
